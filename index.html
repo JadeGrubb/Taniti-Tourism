@@ -31,13 +31,23 @@
       <h4>Taniti offers a variety of experiences for visitors to enjoy, including tropical dining, lodging, activities, and transportation to and from all sites. <br> Please explore our offerings using the navigation menu at the top of the page.</h4>
     </div>
     <div class="image-grid">
-      <img src="images/tropical1.jpg" alt="tropical 1">
-      <img src="images/tropical2.jpg" alt="tropical 2">
-      <img src="images/tropical3.jpg" alt="tropical 3">
+      <a href="#img1"><img src="images/tropical1.jpg" alt="tropical 1"></a>
+      <a href="#img2"><img src="images/tropical2.jpg" alt="tropical 2"></a>
+      <a href="#img3"><img src="images/tropical3.jpg" alt="tropical 3"></a>
     </div>
+
+    <!-- Implementing a lightbox so we can inline expand images and close them without leaving the page. -->
+    <a id="img1" class="lightbox" href="#"><img src="images/tropical1.jpg" alt="tropical 1"></a>
+    <a id="img2" class="lightbox" href="#"><img src="images/tropical2.jpg" alt="tropical 2"></a>
+    <a id="img3" class="lightbox" href="#"><img src="images/tropical3.jpg" alt="tropical 3"></a>
   </main>
 
   <footer>
+    <h4>Stay up to date on upcoming special events and promotions!</h4>
+    <form>
+      <input type="email" placeholder="Enter your email address">
+      <button type="submit">Subscribe</button>
+    </form>
     <p>Header image from Unsplash.com, all other photos used from Shutterstock.</p>
   </footer>
 
